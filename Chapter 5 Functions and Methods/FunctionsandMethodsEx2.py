@@ -6,7 +6,7 @@ foo = 'bar'  #global
 def set_foo():
     foo = 'qux'
 
-set_foo()
+(set_foo()
 print(foo)
 
 #The program prints bar bc the assignment on line 7 creates a new variable that is local to the function - the foo
