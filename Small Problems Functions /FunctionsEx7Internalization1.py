@@ -1,18 +1,18 @@
 #Use Python's control structures to create a function that takes an ISO 639-1 language code and returns a greeting in
 # that language. You can take the examples below or add whatever languages you like.
 
-# def greet(language):
-#     if language == "en":
-#         return "Hi!"
-#     if language == "fr":
-#         return "Salut!"
+def greet(language):
+    if language == "en":
+        return "Hi!"
+    if language == "fr":
+        return "Salut!"
 
-# def greet(language):
-#     match language:
-#         case "En":
-#             return "Hello"
-#         case "fr":
-#             return "Salut!"
+def greet(language):
+    match language:
+        case "En":
+            return "Hello"
+        case "fr":
+            return "Salut!"
 
 def greet(language_code):
     match language_code:
